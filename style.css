@@ -1,0 +1,93 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial, sans-serif;
+}
+
+.MainContainer {
+    display: grid;
+    grid-template-rows: auto 1fr; 
+    min-height: 100vh;
+}
+
+nav {
+    background-color: #8ae299;
+    color: white;
+    padding: 20px;
+    
+}
+
+.navDiv {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.left-content {
+    display: flex;
+    align-items: center;
+    gap: 10px; 
+}
+
+.right-content {
+    display: flex;
+    align-items: center;
+    gap: 5px; 
+}
+
+.navDiv > p{
+    display: inline;
+    
+}
+
+.Content {
+    display: grid;
+    grid-template-columns: 1fr 2fr 1fr;
+    gap: 20px; 
+    padding: 20px;
+}
+
+.Left, .Center, .Right {
+    padding: 20px;
+    background-color: #f4f4f4;
+    border-radius: 5px;
+}
+
+.Left {
+    background-color: #e0e0e0;
+}
+
+.Center {
+    background-color: #d0d0d0;
+}
+
+.Right {
+    background-color: #c0c0c0;
+}
+
+.centerelements{
+    margin-top: 20px;
+    display: flex;
+    background-color: white;
+}
+
+.centerelements > p{
+    padding: 5px;
+    font-size: 30px;
+}
+
+.ListCLass{
+    margin-top: 5px;
+    display: flex;
+    gap: 10px;
+}
+
+li{
+    list-style: none;
+}
